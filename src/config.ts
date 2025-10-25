@@ -297,17 +297,17 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibli",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			url: "https://b23.tv/qiFlJTS",
 		},
 		{
-			name: "Gitee",
+			name: "Github1",
 			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
+			url: "https://github.com/sdd-tes",
 		},
 		{
-			name: "GitHub",
+			name: "GitHub2",
 			icon: "fa6-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/sddlol",
 		},
 		{
 			name: "Codeberg",
@@ -315,9 +315,9 @@ export const profileConfig: ProfileConfig = {
 			url: "https://codeberg.org",
 		},
 		{
-			name: "Discord",
+			name: "havennetwork",
 			icon: "fa6-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
+			url: "https://cloud.cnmsb.cfd",
 		},
 	],
 };
@@ -518,10 +518,12 @@ export const pioConfig: import("./types/config").PioConfig = {
 	dialog: {
 		welcome: "Welcome to Mizuki Website!", // 欢迎词
 		touch: [
+			"hello pig god?",
 			"What are you doing?",
 			"Stop touching me!",
 			"HENTAI!",
 			"Don't bully me like that!",
+			"I want he ni peng peng peng",
 		], // 触摸提示
 		home: "Click here to go back to homepage!", // 首页提示
 		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示

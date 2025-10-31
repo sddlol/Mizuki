@@ -5,6 +5,8 @@ pinned: true
 description: 简单的一个api4的文档
 tags: [Markdown, Blogging]
 draft: false
+sourceLink: "https://blog.cnmsb.cfd/posts/bombsquadapi4/"
+author: sddlol
 ---
 
 # BombSquad APIv4 - 重建文档
@@ -354,7 +356,7 @@ self._botUpdateTimer = bs.Timer(1000, bs.WeakCall(self._update), repeat=True)
    5.2. 动画 (bs.animate)
 用于平滑地改变一个 Node 的属性。
 # 在 {时间: 值} 字典中定义关键帧
-# 0ms: 1.0, 50ms: 0.0, 100ms: 1.0, ...
+# 0ms: 1.0, 50ms: 0.0, 100ms: 1.0, 150ms: 0.0, ...
 bs.animate(self.node, 'opacity', {0:1.0, 50:0.0, 100:1.0, 150:0.0, ...})
 
 # 循环动画 (来自 Duel.py)

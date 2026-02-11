@@ -322,9 +322,9 @@ Speedtest.net	 196.61Mbps	 351.47Mbps	 38.11ms
  时间          : Tue Feb 10 21:08:44 CST 2026
 ------------------------------------------------------------------------
 ```
-![ping0 测试截图](./bitsflowcloud/ping0.png)
-![ChatGPT 智商在线检测截图](./bitsflowcloud/chatgpt_online.png)
-![回程拓扑图](./bitsflowcloud/rt-23.140.140.svg)
+![ping0 测试截图](./ping0.png)
+![ChatGPT 智商在线检测截图](./chatgpt_online.png)
+![回程拓扑图](./rt-23.140.140.svg)
 ## 我的主观评价（优点/适用场景）
 
 ### 优点

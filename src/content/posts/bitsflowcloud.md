@@ -2,11 +2,12 @@
 title: 1 元/年拿下“落地原生 IP”美西 VPS：家人云第二次印象良好
 published: 2026-02-11
 description: 抽奖免费机停服后商家补偿 88 CNY 余额，最终我实际只花 1 RMB 买到一台美西落地原生 IP 的 KVM VPS（IPv4+IPv6），并贴出完整测评结果与主站链接。
+author: "sddlol"
+sourceLink: "https://blog.cnmsb.cfd/posts/bitsflowcloud/"
 image: ./bitsflowcloud.jpg
 tags: [VPS, BitsFlowCloud, 落地, 原生IP, KVM, 测评, 美西]
 category: VPS测评
 draft: false
-pinned: true
 lang: zh-CN
 ---
 

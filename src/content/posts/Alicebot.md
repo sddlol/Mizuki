@@ -1,3 +1,9 @@
+---
+title: 手把手教你部署 Telegram UserBot 项目 —— Alice
+published: 2024-04-01
+description: "Alice tg userbot项目搭建指南"
+draft: false
+---
 # 避坑指南：手把手教你部署 Telegram UserBot 项目 —— Alice
 ## 0. 为什么选择 Alice？
 大多数 Telegram 机器人使用的是官方的 Bot API，功能受限。**Alice** 的独特之处在于它使用 **Telegram User 账号**作为 Bot。这种方案在目前市面上非常罕见，且 Alice 已经有了较为成熟的架构。

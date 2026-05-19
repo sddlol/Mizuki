@@ -11,7 +11,7 @@ sourceLink: "https://blog.cnmsb.cfd/posts/alicebot/"
 大多数 Telegram 机器人使用的是官方的 Bot API，功能受限。**Alice** 的独特之处在于它使用 **Telegram User 账号**作为 Bot。这种方案在目前市面上非常罕见，且 Alice 已经有了较为成熟的架构。
 虽然官方提供的“一键脚本”目前存在一些 Bug（容易卡死），但通过手动安装可以完美解决。本文将教你如何在境外 Linux 服务器上从零开始手动部署 Alice。
 ## 1. 环境准备
-在开始之前，本教程只适用于Ubuntu/Debian。
+在开始之前，本教程只适用于绝大多数的Linux发行版，确保在最近几年的版本(推荐使用Debian系)。
 ### 1.1 安装 Docker
 ```bash
 curl -fsSL get.docker.io | bash

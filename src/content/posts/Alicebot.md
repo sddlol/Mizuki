@@ -58,9 +58,18 @@ cd Alice/runtime
 ```
 ### 2.2 依赖安装与编译
 这里是关键步骤，请务必按顺序执行：
- 1. **安装依赖：** pnpm install
- 2. **批准构建：** pnpm approve-builds（执行后会出现选择界面，建议**全选**）
- 3. **重新编译：** pnpm rebuild
+ 1. **安装依赖：**
+```bash
+pnpm install
+```
+ 4. **批准构建：**
+```bash
+pnpm approve-builds（执行后会出现选择界面，建议**全选**）
+```
+ 6. **重新编译：**
+```bash
+pnpm rebuild
+```
 ## 3. 配置文件修改
 ### 3.1 环境变量配置
 ```bash

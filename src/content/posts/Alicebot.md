@@ -64,7 +64,8 @@ pnpm install
 ```
  4. **批准构建：**
 ```bash
-pnpm approve-builds（执行后会出现选择界面，建议**全选**）
+pnpm approve-builds
+#（执行后会出现选择界面，建议**全选**）
 ```
  6. **重新编译：**
 ```bash

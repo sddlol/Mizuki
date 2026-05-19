@@ -1,6 +1,6 @@
 ---
 title: 手把手教你部署 Telegram UserBot 项目 —— Alice
-published: 2026-5-19
+published: 2026-05-19
 description: "Alice tg userbot项目搭建指南"
 draft: false
 author: sddlol

@@ -68,7 +68,7 @@ nano .env
 ```
 在 .env 中填入你的核心信息：
  * **API ID & API Hash：** 去 my.telegram.com/apps 创建应用获取。
- * **Phone：** 填入你要挂载为 Bot 的 Telegram 账号手机号（带国家码，如 +86...）。
+ * **Phone：** 填入你要挂载为 Bot 的 Telegram 账号手机号（带国家码，如 86...）。
  * **LLM API KEY：** 填入你的中转或官方 API Key。
 ### 3.2 核心业务配置
 ```bash

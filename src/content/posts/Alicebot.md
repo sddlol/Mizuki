@@ -23,7 +23,7 @@ systemctl enable --now docker
 Alice 的 Runtime 需要较新版本的 Node 环境。
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
-sudo apt-get install -y nodejs
+apt-get install -y nodejs
 
 ```
 ### 1.3 安装 pnpm
@@ -45,7 +45,7 @@ curl -fsSL https://go.dev/dl/go1.22.linux-arm64.tar.gz | sudo tar -C /usr/local 
 ```
 **配置 Go 环境变量:**
 ```bash
-echo 'export PATH=$PATH:/local/go/bin' >> ~/.bashrc
+echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
 source ~/.bashrc
 
 ```
@@ -62,12 +62,16 @@ cd Alice/runtime
 ```bash
 pnpm install
 ```
- 4. **批准构建：**
+ 2. **批准构建：**
 ```bash
 pnpm approve-builds
 #（执行后会出现选择界面，**必须全选**）
 ```
- 6. **重新编译：**
+*为什么要全选?*
+**因为部分 native 模块（如 sqlite、sharp 等）默认会被 pnpm 拦截构建。
+如果不允许构建，后续启动可能会报错。**
+
+ 3. **重新编译：**
 ```bash
 pnpm rebuild
 ```
@@ -116,6 +120,8 @@ Alice 的插件/技能运行在 Docker 容器中以保证安全，我们需要�
 docker build -t alice-skill-runner:bookworm -f Dockerfile.skill-runner .
 
 ```
+*为什么还要额外 build 一个镜像？*
+**因为Alice 的 Skill 系统会把插件隔离运行在 Docker 容器中，因此必须提前构建运行时镜像。**
 ## 5. 启动 Alice
 一切就绪后，启动项目：
 ```bash
@@ -126,5 +132,7 @@ pnpm start
 ### 💡 小贴士
  * **持久化运行：** 建议使用 screen 或 pm2 来守护进程，防止 SSH 断开后程序停止。
  * **省钱攻略：** 像作者说的那样，日常聊天用 DeepSeek V4 Flash，看图用 Gemini Flash 或豆包，性价比极高。
- * **Bug 反馈：** 虽然 Alice 目前还有些小 Bug，但作者更新很勤快，建议关注 GitHub 仓库动态。
+ * **Bug 反馈：** Alice 目前仍处于快速迭代阶段，
+部分功能偶尔会出现兼容性问题，
+建议关注仓库更新动态。
 祝大家玩得开心！😎

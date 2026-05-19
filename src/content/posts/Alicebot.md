@@ -1,8 +1,10 @@
 ---
 title: 手把手教你部署 Telegram UserBot 项目 —— Alice
-published: 2024-04-01
+published: 2026-5-19
 description: "Alice tg userbot项目搭建指南"
 draft: false
+author: sddlol
+sourceLink: "https://blog.cnmsb.cfd/posts/alicebot/"
 ---
 # 避坑指南：手把手教你部署 Telegram UserBot 项目 —— Alice
 ## 0. 为什么选择 Alice？

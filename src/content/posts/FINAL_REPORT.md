@@ -4,7 +4,7 @@ published: 2026-05-30
 description: "破解 BombSquad `/bsAccountCycle` 和 `/bsAccountCycleCheap` 协议"
 draft: false
 author: sddlol
-sourceLink: "https://blog.cnmsb.cfd/posts/alicebot/"
+sourceLink: "https://blog.cnmsb.cfd/posts/final_report/"
 ---
 # BombSquad 1.4.155 bsAccountCycle 逆向工程完整报告
 
